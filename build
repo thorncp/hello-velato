@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+lilypond hello-world.ly
+mono vendor/Velato.exe hello-world.midi
