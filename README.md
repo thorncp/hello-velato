@@ -48,3 +48,5 @@ The general flow is:
 1. `mono hello-world.mid.exe`
 
 The included `build` script is a convenience for steps 1 & 2.
+
+![hello world](hello-world.png)
