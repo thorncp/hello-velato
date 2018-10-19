@@ -16,45 +16,45 @@
   \transpose c c' {
     % H
     <c a>4
-    g8(
+    g8
     e8 f8
     gs8 d8
-    g8) |
+    g8 |
 
     % e
     a8
     <g e>4.
     <f cs>4
-    c16( cs16
+    c16 cs16
     g8 |
 
     % l
-    a8)
+    a8
     <g e>8
     <f cs>4
     <c a>4
-    g4( |
+    g4 |
 
     % l
     a16 g16
     e16 f8
-    cs8.) <c a g>2 |
+    cs8. <c a g>2 |
 
     % o
-    a8( g8 e8)
+    a8 g8 e8
     f8.
-    cs16( cs8 cs8 g8 |
+    cs16 cs8 cs8 g8 |
 
     % ,
     a8 g4
     e8 f8
     e e
-    g8) |
+    g8 |
 
     % space
     a8
     <g e>4.
-    f8(
+    f8
     ds d
     g8 |
 
@@ -62,24 +62,24 @@
     a8 g4
     e8 f8
     a8 gs8
-    g8) |
+    g8 |
 
     % o
-    a8( g8
+    a8 g8
     e8 f8
-    cs8 cs8) <cs g>4 |
+    cs8 cs8 <cs g>4 |
 
     % r
-    a8( g8
+    a8 g8
     e8 f8
     cs8 cs8 e8. g16 |
 
     % l
-    c16 a16)
+    c16 a16
     <g e>8
     <f cs>4
     <c a>4
-    g4( |
+    g4 |
 
     % d
     a8 g4
@@ -88,9 +88,9 @@
     g8 |
 
     % !
-    a16)
+    a16
     <g e>4
-    f16( ds16 ds16)
+    f16 ds16 ds16
     <g c>2 |
   }
   \layout {
