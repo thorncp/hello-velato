@@ -30,14 +30,17 @@ This will put the compiled output in the `Rottytooth.Esolang.Velato/bin/Release`
 directory. The `Velato.exe` and `NAudio.dll` files are what we're interested in.
 They have been copied into the `vendor` directory of this repo for convenience.
 
-### Lilypond
+### LilyPond
 
 Since Velato takes MIDI as its input, I needed a way to produce a MIDI file.
-[Lilypond] is a "music engraving program" whose focus is producing high quality
-sheet music, but will also output MIDI. There is no Homebrew package that I'm
-aware of, so some manual installation was required.
+[LilyPond] is a "music engraving program" whose focus is producing high quality
+sheet music, but will also output MIDI.
 
-[Lilypond]: http://lilypond.org/
+Note: I used LilyPond version 2.19.x for this, which is currently pre-release.
+There is a Homebrew package, via casks, that is 2.18.x, which doesn't produce a
+midi that Velato accepts.
+
+[LilyPond]: http://lilypond.org/
 
 ## Building & executing
 
