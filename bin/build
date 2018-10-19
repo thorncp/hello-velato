@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+file="$1"
+program=$(basename -s .ly "$file")
+
+lilypond "$file"
+mono vendor/Velato.exe "$program.midi"
